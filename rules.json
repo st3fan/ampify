@@ -1,0 +1,713 @@
+{
+    "www.businessinsider.com": [
+        {
+            "path": "^\\/([^/]+)$",
+            "change-hostname": "amp.businessinsider.com",
+            "change-protocol": "https"
+        }
+    ],
+    "www.vox.com": [
+        {
+            "path": "^\\/([0-9]+)\\/([0-9]+)\\/([0-9]+)\\/([0-9]+)\\/([^/]+)$",
+            "prepend-path": "/platform/amp"
+        }
+    ],
+    "www.theguardian.com": [
+        {
+            "path": "^\\/([^/]+)\\/([0-9]+)\\/([^/]+)\\/([0-9]+)\\/([^/]+)$",
+            "change-hostname": "amp.theguardian.com"
+        }
+    ],
+    "www.thejournal.ie": [
+        {
+            "path": "^\\/([^/]+)\\/\\/([^/]+)$",
+            "set-query": "amp=1"
+        }
+    ],
+    "www.thesun.co.uk": [
+        {
+            "path": "^\\/([^/]+)\\/([0-9]+)\\/([^/]+)\\/\\/([^/]+)$",
+            "append-path": "amp/"
+        }
+    ],
+    "www.theverge.com": [
+        {
+            "path": "^\\/([0-9]+)\\/([0-9]+)\\/([0-9]+)\\/([0-9]+)\\/([^/]+)$",
+            "prepend-path": "/platform/amp"
+        }
+    ],
+    "blog.conceptnet.io": [
+        {
+            "path": "^\\/([0-9]+)\\/([0-9]+)\\/([0-9]+)\\/([^/]+)\\/\\/([^/]+)$",
+            "append-path": "amp/"
+        }
+    ],
+    "www.universetoday.com": [
+        {
+            "path": "^\\/([0-9]+)\\/([^/]+)\\/\\/([^/]+)$",
+            "append-path": "amp/"
+        }
+    ],
+    "www.teslarati.com": [
+        {
+            "path": "^\\/([^/]+)\\/\\/([^/]+)$",
+            "append-path": "amp/"
+        }
+    ],
+    "hackerlists.com": [
+        {
+            "path": "^\\/([^/]+)\\/\\/([^/]+)$",
+            "append-path": "amp/"
+        }
+    ],
+    "fortune.com": [
+        {
+            "path": "^\\/([0-9]+)\\/([0-9]+)\\/([0-9]+)\\/([^/]+)\\/\\/([^/]+)$",
+            "change-hostname": "amp.timeinc.net",
+            "set-query": "source=dam",
+            "prepend-path": "/fortune"
+        }
+    ],
+    "pocketcluster.wordpress.com": [
+        {
+            "path": "^\\/([0-9]+)\\/([0-9]+)\\/([0-9]+)\\/([^/]+)\\/\\/([^/]+)$",
+            "append-path": "amp/"
+        }
+    ],
+    "www.ibtimes.co.uk": [
+        {
+            "path": "^\\/([^/]+)$",
+            "change-hostname": "amp.ibtimes.co.uk",
+            "change-protocol": "https"
+        }
+    ],
+    "lifehacker.com": [
+        {
+            "path": "^\\/([^/]+)$",
+            "append-path": "/amp",
+            "clear-query": true
+        }
+    ],
+    "bitsonblocks.net": [
+        {
+            "path": "^\\/([0-9]+)\\/([0-9]+)\\/([0-9]+)\\/([^/]+)\\/\\/([^/]+)$",
+            "append-path": "amp/"
+        }
+    ],
+    "www.wbir.com": [
+        {
+            "path": "^\\/([^/]+)\\/([^/]+)\\/([^/]+)\\/([0-9]+)$",
+            "prepend-path": "/amp"
+        }
+    ],
+    "www.yahoo.com": [
+        {
+            "path": "^\\/([^/]+)\\/([^/]+)$",
+            "prepend-path": "/amphtml",
+            "clear-query": true
+        }
+    ],
+    "globalnews.ca": [
+        {
+            "path": "^\\/([^/]+)\\/([0-9]+)\\/([^/]+)\\/\\/([^/]+)$",
+            "append-path": "amp/"
+        }
+    ],
+    "www.zdnet.com": [
+        {
+            "path": "^\\/([^/]+)\\/([^/]+)\\/\\/([^/]+)$",
+            "prepend-path": "/google-amp"
+        }
+    ],
+    "e.vnexpress.net": [
+        {
+            "path": "^\\/([^/]+)\\/([^/]+)\\/([^/]+)$",
+            "change-hostname": "ampe.vnexpress.net"
+        }
+    ],
+    "blog.longreads.com": [
+        {
+            "path": "^\\/([0-9]+)\\/([0-9]+)\\/([0-9]+)\\/([^/]+)\\/\\/([^/]+)$",
+            "append-path": "amp/"
+        }
+    ],
+    "thenextweb.com": [
+        {
+            "path": "^\\/([^/]+)\\/([0-9]+)\\/([0-9]+)\\/([0-9]+)\\/([^/]+)\\/\\/([^/]+)$",
+            "set-query": "amp=1"
+        }
+    ],
+    "www.miamiherald.com": [
+        {
+            "path": "^\\/([^/]+)\\/([^/]+)\\/([^/]+)\\/([^/]+)\\/([^/]+)$",
+            "change-hostname": "miamiherald.relaymedia.com",
+            "prepend-path": "/amp",
+            "change-protocol": "https"
+        }
+    ],
+    "indianexpress.com": [
+        {
+            "path": "^\\/([^/]+)\\/([^/]+)\\/([^/]+)\\/([^/]+)\\/\\/([^/]+)$",
+            "append-path": "lite/"
+        }
+    ],
+    "blog.algorithmia.com": [
+        {
+            "path": "^\\/([^/]+)\\/\\/([^/]+)$",
+            "append-path": "amp/"
+        }
+    ],
+    "www.dw.com": [
+        {
+            "path": "^\\/([^/]+)\\/([^/]+)\\/([^/]+)$",
+            "change-hostname": "amp.dw.com"
+        }
+    ],
+    "www.livescience.com": [
+        {
+            "path": "^\\/([^/]+)$",
+            "change-hostname": "amp.livescience.com"
+        }
+    ],
+    "heavy.com": [
+        {
+            "path": "^\\/([^/]+)\\/([0-9]+)\\/([0-9]+)\\/([^/]+)\\/\\/([^/]+)$",
+            "append-path": "amp/"
+        }
+    ],
+    "news.nationalpost.com": [
+        {
+            "path": "^\\/([^/]+)\\/([^/]+)\\/([^/]+)\\/([^/]+)$",
+            "append-path": "/amp"
+        }
+    ],
+    "abcnews.go.com": [
+        {
+            "path": "^\\/([^/]+)\\/([^/]+)\\/([^/]+)$",
+            "set-query": "id=41546590",
+            "prepend-path": "/amp"
+        }
+    ],
+    "thedaleyreview.wordpress.com": [
+        {
+            "path": "^\\/([0-9]+)\\/([0-9]+)\\/([0-9]+)\\/([^/]+)\\/\\/([^/]+)$",
+            "append-path": "amp/"
+        }
+    ],
+    "20committee.com": [
+        {
+            "path": "^\\/([0-9]+)\\/([0-9]+)\\/([0-9]+)\\/([^/]+)\\/\\/([^/]+)$",
+            "append-path": "amp/"
+        }
+    ],
+    "techcrunch.com": [
+        {
+            "path": "^\\/([0-9]+)\\/([0-9]+)\\/([0-9]+)\\/([^/]+)\\/\\/([^/]+)$",
+            "append-path": "amp/"
+        }
+    ],
+    "nakedsecurity.sophos.com": [
+        {
+            "path": "^\\/([0-9]+)\\/([0-9]+)\\/([0-9]+)\\/([^/]+)\\/\\/([^/]+)$",
+            "append-path": "amp/",
+            "clear-query": true
+        }
+    ],
+    "www.dailysabah.com": [
+        {
+            "path": "^\\/([^/]+)\\/([0-9]+)\\/([0-9]+)\\/([0-9]+)\\/([^/]+)$",
+            "append-path": "/amp"
+        }
+    ],
+    "www.slate.com": [
+        {
+            "path": "^\\/([^/]+)\\/([^/]+)\\/([0-9]+)\\/([0-9]+)\\/([0-9]+)\\/([^/]+)$",
+            "change-hostname": "amp.slate.com"
+        }
+    ],
+    "denver.cbslocal.com": [
+        {
+            "path": "^\\/([0-9]+)\\/([0-9]+)\\/([0-9]+)\\/([^/]+)\\/\\/([^/]+)$",
+            "append-path": "amp/"
+        }
+    ],
+    "examine.com": [
+        {
+            "path": "^\\/([^/]+)\\/([^/]+)\\/\\/([^/]+)$",
+            "append-path": "amp/"
+        }
+    ],
+    "www.mirror.co.uk": [
+        {
+            "path": "^\\/([^/]+)\\/([^/]+)\\/([^/]+)$",
+            "append-path": ".amp"
+        }
+    ],
+    "www.france24.com": [
+        {
+            "path": "^\\/([^/]+)\\/([^/]+)$",
+            "change-hostname": "amp.france24.com",
+            "change-protocol": "https"
+        }
+    ],
+    "finance.yahoo.com": [
+        {
+            "path": "^\\/([^/]+)\\/([^/]+)$",
+            "change-hostname": "www.yahoo.com",
+            "prepend-path": "/amphtml/finance",
+            "change-protocol": "https"
+        }
+    ],
+    "programmingpraxis.com": [
+        {
+            "path": "^\\/([0-9]+)\\/([0-9]+)\\/([0-9]+)\\/([^/]+)\\/\\/([^/]+)$",
+            "append-path": "amp/"
+        }
+    ],
+    "openvisualfx.wordpress.com": [
+        {
+            "path": "^\\/([0-9]+)\\/([0-9]+)\\/([0-9]+)\\/([^/]+)\\/\\/([^/]+)$",
+            "append-path": "amp/"
+        }
+    ],
+    "fieldguide.gizmodo.com": [
+        {
+            "path": "^\\/([^/]+)$",
+            "append-path": "/amp",
+            "clear-query": true
+        }
+    ],
+    "pedestrianobservations.wordpress.com": [
+        {
+            "path": "^\\/([0-9]+)\\/([0-9]+)\\/([0-9]+)\\/([^/]+)\\/\\/([^/]+)$",
+            "append-path": "amp/"
+        }
+    ],
+    "indiatoday.intoday.in": [
+        {
+            "path": "^\\/([^/]+)\\/([^/]+)\\/([0-9]+)\\/([^/]+)$",
+            "change-hostname": "m.indiatoday.in",
+            "prepend-path": "/lite"
+        }
+    ],
+    "www.deccanchronicle.com": [
+        {
+            "path": "^\\/([^/]+)\\/([^/]+)\\/([0-9]+)\\/([^/]+)$",
+            "prepend-path": "/amp"
+        }
+    ],
+    "blog.wikimedia.org": [
+        {
+            "path": "^\\/([0-9]+)\\/([0-9]+)\\/([0-9]+)\\/([^/]+)\\/\\/([^/]+)$",
+            "append-path": "amp/"
+        }
+    ],
+    "9to5mac.com": [
+        {
+            "path": "^\\/([0-9]+)\\/([0-9]+)\\/([0-9]+)\\/([^/]+)\\/\\/([^/]+)$",
+            "append-path": "amp/"
+        }
+    ],
+    "feld.com": [
+        {
+            "path": "^\\/([^/]+)\\/([0-9]+)\\/([0-9]+)\\/([^/]+)$",
+            "append-path": "/amp"
+        }
+    ],
+    "chicago.cbslocal.com": [
+        {
+            "path": "^\\/([0-9]+)\\/([0-9]+)\\/([0-9]+)\\/([^/]+)\\/\\/([^/]+)$",
+            "append-path": "amp/"
+        }
+    ],
+    "pagesix.com": [
+        {
+            "path": "^\\/([0-9]+)\\/([0-9]+)\\/([0-9]+)\\/([^/]+)\\/\\/([^/]+)$",
+            "append-path": "amp/"
+        }
+    ],
+    "www.thestar.com": [
+        {
+            "path": "^\\/([^/]+)\\/([^/]+)\\/([0-9]+)\\/([0-9]+)\\/([0-9]+)\\/([^/]+)$",
+            "prepend-path": "/amp"
+        }
+    ],
+    "www.forbes.com": [
+        {
+            "path": "^\\/([^/]+)\\/([^/]+)\\/([0-9]+)\\/([0-9]+)\\/([0-9]+)\\/([^/]+)\\/\\/([^/]+)$",
+            "append-path": "amp/"
+        }
+    ],
+    "www.technologyreview.com": [
+        {
+            "path": "^\\/([^/]+)\\/([0-9]+)\\/([^/]+)\\/\\/([^/]+)$",
+            "append-path": "amp/"
+        }
+    ],
+    "www.wired.com": [
+        {
+            "path": "^\\/([0-9]+)\\/([0-9]+)\\/([^/]+)\\/\\/([^/]+)$",
+            "append-path": "amp/",
+            "change-protocol": "https"
+        }
+    ],
+    "www.theregister.co.uk": [
+        {
+            "path": "^\\/([0-9]+)\\/([0-9]+)\\/([0-9]+)\\/([^/]+)\\/\\/([^/]+)$",
+            "prepend-path": "/AMP"
+        }
+    ],
+    "www.cnet.com": [
+        {
+            "path": "^\\/([^/]+)\\/([^/]+)\\/\\/([^/]+)$",
+            "prepend-path": "/google-amp"
+        }
+    ],
+    "digg.com": [
+        {
+            "path": "^\\/([0-9]+)\\/([^/]+)$",
+            "set-query": "amp=true"
+        }
+    ],
+    "steveblank.com": [
+        {
+            "path": "^\\/([0-9]+)\\/([0-9]+)\\/([0-9]+)\\/([^/]+)\\/\\/([^/]+)$",
+            "append-path": "amp/"
+        }
+    ],
+    "techpoint.ng": [
+        {
+            "path": "^\\/([0-9]+)\\/([0-9]+)\\/([0-9]+)\\/([^/]+)\\/\\/([^/]+)$",
+            "append-path": "amp/"
+        }
+    ],
+    "www.space.com": [
+        {
+            "path": "^\\/([^/]+)$",
+            "change-hostname": "amp.space.com"
+        }
+    ],
+    "blog.sfgate.com": [
+        {
+            "path": "^\\/([^/]+)\\/([0-9]+)\\/([0-9]+)\\/([0-9]+)\\/([^/]+)\\/\\/([^/]+)$",
+            "append-path": "amp/",
+            "clear-query": true
+        }
+    ],
+    "gustedt.wordpress.com": [
+        {
+            "path": "^\\/([0-9]+)\\/([0-9]+)\\/([0-9]+)\\/([^/]+)\\/\\/([^/]+)$",
+            "append-path": "amp/"
+        }
+    ],
+    "www.dailystar.co.uk": [
+        {
+            "path": "^\\/([^/]+)\\/([^/]+)\\/([0-9]+)\\/([^/]+)$",
+            "append-path": "/amp",
+            "change-protocol": "https"
+        }
+    ],
+    "www.cnbc.com": [
+        {
+            "path": "^\\/([0-9]+)\\/([0-9]+)\\/([0-9]+)\\/([^/]+)$",
+            "prepend-path": "/amp",
+            "clear-query": true
+        }
+    ],
+    "kartikkukreja.wordpress.com": [
+        {
+            "path": "^\\/([0-9]+)\\/([0-9]+)\\/([0-9]+)\\/([^/]+)\\/\\/([^/]+)$",
+            "append-path": "amp/"
+        }
+    ],
+    "blog.trailofbits.com": [
+        {
+            "path": "^\\/([0-9]+)\\/([0-9]+)\\/([0-9]+)\\/([^/]+)\\/\\/([^/]+)$",
+            "append-path": "amp/"
+        }
+    ],
+    "www.washingtonpost.com": [
+        {
+            "path": "^\\/([^/]+)\\/([^/]+)\\/([^/]+)\\/([0-9]+)\\/([0-9]+)\\/([0-9]+)\\/([^/]+)$",
+            "prepend-path": "/amphtml"
+        }
+    ],
+    "25iq.com": [
+        {
+            "path": "^\\/([0-9]+)\\/([0-9]+)\\/([0-9]+)\\/([^/]+)\\/\\/([^/]+)$",
+            "append-path": "amp/"
+        }
+    ],
+    "gizmodo.com": [
+        {
+            "path": "^\\/([^/]+)$",
+            "append-path": "/amp"
+        }
+    ],
+    "ottawacitizen.com": [
+        {
+            "path": "^\\/([^/]+)\\/([^/]+)\\/([^/]+)$",
+            "append-path": "/amp"
+        }
+    ],
+    "www.hngn.com": [
+        {
+            "path": "^\\/([^/]+)\\/([0-9]+)\\/([0-9]+)\\/([^/]+)$",
+            "prepend-path": "/amp"
+        }
+    ],
+    "www.buzzfeed.com": [
+        {
+            "path": "^\\/([^/]+)\\/([^/]+)$",
+            "prepend-path": "/amphtml",
+            "clear-query": true
+        }
+    ],
+    "www.vanityfair.com": [
+        {
+            "path": "^\\/([^/]+)\\/([0-9]+)\\/([0-9]+)\\/([^/]+)$",
+            "append-path": "/amp"
+        }
+    ],
+    "techchicblog.wordpress.com": [
+        {
+            "path": "^\\/([0-9]+)\\/([0-9]+)\\/([0-9]+)\\/([^/]+)\\/\\/([^/]+)$",
+            "append-path": "amp/"
+        }
+    ],
+    "design.blog": [
+        {
+            "path": "^\\/([0-9]+)\\/([0-9]+)\\/([0-9]+)\\/([^/]+)\\/\\/([^/]+)$",
+            "append-path": "amp/"
+        }
+    ],
+    "www.sacbee.com": [
+        {
+            "path": "^\\/([^/]+)\\/([^/]+)$",
+            "change-hostname": "sacbee.relaymedia.com",
+            "prepend-path": "/amp",
+            "change-protocol": "https"
+        }
+    ],
+    "www.sbnation.com": [
+        {
+            "path": "^\\/([0-9]+)\\/([0-9]+)\\/([0-9]+)\\/([0-9]+)\\/([^/]+)$",
+            "prepend-path": "/platform/amp",
+            "clear-query": true
+        }
+    ],
+    "myprogrammingexperiments.wordpress.com": [
+        {
+            "path": "^\\/([0-9]+)\\/([0-9]+)\\/([0-9]+)\\/([^/]+)\\/\\/([^/]+)$",
+            "append-path": "amp/"
+        }
+    ],
+    "io9.gizmodo.com": [
+        {
+            "path": "^\\/([^/]+)$",
+            "append-path": "/amp"
+        }
+    ],
+    "gephardtdaily.com": [
+        {
+            "path": "^\\/([^/]+)\\/([^/]+)\\/\\/([^/]+)$",
+            "append-path": "amp/"
+        }
+    ],
+    "fourhourworkweek.com": [
+        {
+            "path": "^\\/([0-9]+)\\/([0-9]+)\\/([0-9]+)\\/([^/]+)\\/\\/([^/]+)$",
+            "append-path": "amp/"
+        }
+    ],
+    "www.wmtw.com": [
+        {
+            "path": "^\\/([^/]+)\\/([^/]+)\\/([0-9]+)$",
+            "change-hostname": "wmtw.relaymedia.com",
+            "prepend-path": "/amp",
+            "change-protocol": "https"
+        }
+    ],
+    "www.ndtv.com": [
+        {
+            "path": "^\\/([^/]+)\\/([^/]+)$",
+            "change-hostname": "m.ndtv.com",
+            "set-query": "amp=1&akamai-rum=off"
+        }
+    ],
+    "www.macrumors.com": [
+        {
+            "path": "^\\/([0-9]+)\\/([0-9]+)\\/([0-9]+)\\/([^/]+)\\/\\/([^/]+)$",
+            "append-path": "amp/"
+        }
+    ],
+    "www.newyorker.com": [
+        {
+            "path": "^\\/([^/]+)\\/([0-9]+)\\/([0-9]+)\\/([0-9]+)\\/([^/]+)$",
+            "append-path": "/amp"
+        }
+    ],
+    "www.theglobeandmail.com": [
+        {
+            "path": "^\\/([^/]+)\\/([^/]+)\\/([^/]+)\\/([^/]+)\\/\\/([^/]+)$",
+            "change-hostname": "sec.theglobeandmail.com",
+            "set-query": "service=amp",
+            "change-protocol": "https"
+        }
+    ],
+    "www.aljazeera.com": [
+        {
+            "path": "^\\/([^/]+)\\/([^/]+)\\/([0-9]+)\\/([0-9]+)\\/([^/]+)$",
+            "prepend-path": "/amp"
+        }
+    ],
+    "shinesolutions.com": [
+        {
+            "path": "^\\/([0-9]+)\\/([0-9]+)\\/([0-9]+)\\/([^/]+)\\/\\/([^/]+)$",
+            "append-path": "amp/"
+        }
+    ],
+    "blogs.dropbox.com": [
+        {
+            "path": "^\\/([^/]+)\\/([0-9]+)\\/([0-9]+)\\/([^/]+)\\/\\/([^/]+)$",
+            "append-path": "amp/"
+        }
+    ],
+    "www.iraqinews.com": [
+        {
+            "path": "^\\/([^/]+)\\/([^/]+)\\/\\/([^/]+)$",
+            "append-path": "amp/"
+        }
+    ],
+    "www.ft.com": [
+        {
+            "path": "^\\/([^/]+)\\/([^/]+)$",
+            "change-hostname": "amp.ft.com"
+        }
+    ],
+    "www.telegraph.co.uk": [
+        {
+            "path": "^\\/([^/]+)\\/([0-9]+)\\/([0-9]+)\\/([0-9]+)\\/([^/]+)$",
+            "append-path": "/amp/"
+        }
+    ],
+    "asiancorrespondent.com": [
+        {
+            "path": "^\\/([0-9]+)\\/([0-9]+)\\/([^/]+)\\/\\/([^/]+)$",
+            "set-query": "amp"
+        }
+    ],
+    "nypost.com": [
+        {
+            "path": "^\\/([0-9]+)\\/([0-9]+)\\/([0-9]+)\\/([^/]+)\\/\\/([^/]+)$",
+            "append-path": "amp/"
+        }
+    ],
+    "www.wsj.com": [
+        {
+            "path": "^\\/([^/]+)\\/([^/]+)$",
+            "prepend-path": "/amp",
+            "clear-query": true
+        }
+    ],
+    "rogeralsing.com": [
+        {
+            "path": "^\\/([0-9]+)\\/([0-9]+)\\/([0-9]+)\\/([^/]+)\\/\\/([^/]+)$",
+            "append-path": "amp/"
+        }
+    ],
+    "jeremydmiller.com": [
+        {
+            "path": "^\\/([0-9]+)\\/([0-9]+)\\/([0-9]+)\\/([^/]+)\\/\\/([^/]+)$",
+            "append-path": "amp/"
+        }
+    ],
+    "www.independent.co.uk": [
+        {
+            "path": "^\\/([^/]+)\\/([^/]+)\\/([^/]+)\\/([^/]+)$",
+            "set-query": "amp"
+        }
+    ],
+    "m.dw.com": [
+        {
+            "path": "^\\/([^/]+)\\/([^/]+)\\/([^/]+)$",
+            "change-hostname": "amp.dw.com"
+        }
+    ],
+    "eoto.tech": [
+        {
+            "path": "^\\/([^/]+)\\/\\/([^/]+)$",
+            "append-path": "amp/"
+        }
+    ],
+    "www.cbsnews.com": [
+        {
+            "path": "^\\/([^/]+)\\/([^/]+)\\/\\/([^/]+)$",
+            "prepend-path": "/amp"
+        }
+    ],
+    "www.newsweek.com": [
+        {
+            "path": "^\\/([^/]+)$",
+            "set-query": "amp=1"
+        }
+    ],
+    "nlguillemot.wordpress.com": [
+        {
+            "path": "^\\/([0-9]+)\\/([0-9]+)\\/([0-9]+)\\/([^/]+)\\/\\/([^/]+)$",
+            "append-path": "amp/"
+        }
+    ],
+    "www.atlasobscura.com": [
+        {
+            "path": "^\\/([^/]+)\\/([^/]+)$",
+            "append-path": ".amp"
+        }
+    ],
+    "www.faketeams.com": [
+        {
+            "path": "^\\/([0-9]+)\\/([0-9]+)\\/([0-9]+)\\/([0-9]+)\\/([^/]+)$",
+            "prepend-path": "/platform/amp"
+        }
+    ],
+    "www.dailydot.com": [
+        {
+            "path": "^\\/([^/]+)\\/([^/]+)\\/\\/([^/]+)$",
+            "change-hostname": "dailydot.relaymedia.com",
+            "prepend-path": "/amp",
+            "change-protocol": "https"
+        }
+    ],
+    "blog.typekit.com": [
+        {
+            "path": "^\\/([0-9]+)\\/([0-9]+)\\/([0-9]+)\\/([^/]+)\\/\\/([^/]+)$",
+            "append-path": "amp/"
+        }
+    ],
+    "ujjwalkarn.me": [
+        {
+            "path": "^\\/([0-9]+)\\/([0-9]+)\\/([0-9]+)\\/([^/]+)\\/\\/([^/]+)$",
+            "append-path": "amp/"
+        }
+    ],
+    "drjengunter.wordpress.com": [
+        {
+            "path": "^\\/([0-9]+)\\/([0-9]+)\\/([0-9]+)\\/([^/]+)\\/\\/([^/]+)$",
+            "append-path": "amp/"
+        }
+    ],
+    "nbc4i.com": [
+        {
+            "path": "^\\/([0-9]+)\\/([0-9]+)\\/([0-9]+)\\/([^/]+)\\/\\/([^/]+)$",
+            "append-path": "amp/"
+        }
+    ],
+    "time.com": [
+        {
+            "path": "^\\/([0-9]+)\\/([^/]+)\\/\\/([^/]+)$",
+            "change-hostname": "amp.timeinc.net",
+            "set-query": "source=dam",
+            "prepend-path": "/time"
+        }
+    ]
+}

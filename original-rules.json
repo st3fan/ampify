@@ -1,0 +1,28 @@
+    "www.theguardian.com": {
+        "path": /^\/(.+)\/(.+)\/(.+)\/(.+)$/,
+        "change-hostname": "amp.theguardian.com"
+    },
+    "thehill.com": {
+        "path": /^\/homenews\/(.+)\/(.+)$/,
+        "add-query-parameter": "amp"
+    },
+    "www.theglobeandmail.com": {
+        "path": /^\/news\/(.+)\/(.+)\/article([0-9]+)\/$/,
+        "change-hostname": "sec.theglobeandmail.com",
+        "change-protocol": "https",
+        "add-query-parameter": "service=amp"
+    },
+
+    // http://www.vox.com/2016/8/19/12527926/donald-trump-celebrity
+    // http://www.vox.com/platform/amp/2016/8/19/12527926/donald-trump-celebrity
+        "www.vox.com": {
+        "path": /^\/([0-9]+)\/([0-9]+)\/([0-9]+)\/([0-9]+)\/(.+)$/,
+        "prepend-path": "/platform/amp"
+    },
+
+    // http://www.businessinsider.com/ryan-lochte-statement-rio-gas-station-incident-2016-8
+    // https://amp.businessinsider.com/ryan-lochte-statement-rio-gas-station-incident-2016-8
+    "www.businessinsider.com": {
+        "path": /^\/(.+)$/,
+        "change-hostname": "amp.businessinsider.com"
+    }

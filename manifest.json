@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+    "name": "Ampify",
+    "version": "0.1",
+    "description": "Prefers to load AMP content where it is known to be available.",
+    "permissions": [
+        "webRequest",
+        "webRequestBlocking"
+    ],
+    "background": {
+        "scripts": ["background.js"]
+    }
+}
